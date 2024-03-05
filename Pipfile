@@ -1,0 +1,51 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aiohttp = "==3.9.3"
+aiorpcx = "==0.22.1"
+aiosignal = "==1.3.1"
+annotated-types = "==0.6.0"
+anyio = "==4.3.0"
+async-timeout = "==4.0.3"
+attrs = "==23.2.0"
+certifi = "==2024.2.2"
+charset-normalizer = "==3.3.2"
+click = "==8.1.7"
+colorama = "==0.4.6"
+et-xmlfile = "==1.1.0"
+exceptiongroup = "==1.2.0"
+exrex = "==0.11.0"
+fastapi = "==0.110.0"
+frozenlist = "==1.4.1"
+h11 = "==0.14.0"
+idna = "==3.6"
+multidict = "==6.0.5"
+numpy = "==1.26.4"
+openpyxl = "==3.0.10"
+pandas = "==2.2.1"
+perlin-noise = "==1.12"
+pydantic-core = "==2.16.3"
+pydantic = "==2.6.3"
+pysocks = "==1.7.1"
+python-dateutil = "==2.9.0.post0"
+pytz = "==2024.1"
+requests-futures = "==1.0.1"
+requests = "==2.31.0"
+six = "==1.16.0"
+sniffio = "==1.3.1"
+starlette = "==0.36.3"
+stem = "==1.8.2"
+torrequest = "==0.1.0"
+typing-extensions = "==4.10.0"
+tzdata = "==2024.1"
+urllib3 = "==2.2.1"
+uvicorn = {extras = ["standard"], version = "*"}
+yarl = "==1.9.4"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
